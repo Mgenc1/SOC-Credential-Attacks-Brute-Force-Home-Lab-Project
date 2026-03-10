@@ -1,1 +1,47 @@
+# SOC Brute Force Credential Attack Lab – Overview
 
+This laboratory is designed to simulate authentication attacks (RDP Brute Force, SMB Brute Force, and Password Spraying) within a SOC environment. The purpose is to replicate real-world credential attack scenarios in an isolated environment and enable security operations teams to detect, analyze, and report these attacks. The lab provides an end-to-end SOC experience, from attack execution to detection and response.
+
+---
+
+## Lab Architecture and Components
+
+The laboratory is built on three primary virtual machines:
+
+### 1. Attacker Machine – Kali Linux
+- This machine is used to perform Brute Force attacks.
+- Targets RDP and SMB protocols and conducts Password Spraying tests.
+- Tools used include Hydra, CrackMapExec, and others.
+- Interaction with target machines and login attempts are logged for analysis.
+
+### 2. Victim Machine – Windows 11
+- Represents target users and system services.
+- Sysmon and Windows Security logging are enabled.
+- All login and process activities are recorded in detail.
+- Logs are forwarded to the SIEM server via Universal Forwarder.
+- This allows post-attack event correlation and detailed analysis.
+
+### 3. SIEM Machine – Ubuntu Server
+- Collects and centralizes all logs generated in the lab.
+- Splunk Enterprise is used to build dashboards, alerts, and analytical panels.
+- SOC analysts can monitor Brute Force activities in real-time and extract IOCs (Indicators of Compromise).
+
+---
+
+## Lab Network and Traffic Flow
+
+- The lab network is fully isolated.
+- Authentication attempts occur between the Attacker and Victim machines over RDP and SMB protocols.
+- All logs are forwarded from the Victim to the SIEM, enabling detection of attack activities.
+- No internet connection is required; all traffic remains within the virtual network.
+
+---
+
+## Lab Objectives
+
+- Simulate RDP Brute Force, SMB Brute Force, and Password Spraying attacks and capture their logs.
+- Analyze attack activities using Windows Security and Sysmon logs.
+- Collect, visualize, and correlate logs within Splunk.
+- Classify attack activities according to the MITRE ATT&CK framework.
+- Test SOC reporting and incident response procedures.
+- Provide a realistic, training-oriented SOC environment for analysts and students.
