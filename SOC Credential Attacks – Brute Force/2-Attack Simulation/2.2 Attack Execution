@@ -1,1 +1,64 @@
 
+## RDP Brute Force Attack Execution
+
+In this scenario, the attacker attempts to gain remote access to the Windows victim machine through the Remote Desktop Protocol (RDP) service.
+
+The attacker uses automated tools to repeatedly attempt authentication with different password combinations against a specific user account.
+
+Execution process:
+
+1. The attacker identifies that the RDP service is enabled on the Windows machine.
+2. A list of potential passwords is prepared.
+3. Automated login attempts are sent to the RDP service.
+4. Each failed login attempt generates a Windows Security log event.
+5. If a correct password is eventually discovered, the system generates a successful authentication event.
+
+These repeated authentication attempts simulate a typical brute force attack targeting remote access services.
+
+---
+
+## SMB Brute Force Attack Execution
+
+In this scenario, the attacker targets the SMB service running on the Windows victim machine.
+
+SMB is commonly used for file sharing and authentication within Windows environments, making it a frequent target for attackers attempting credential compromise.
+
+Execution process:
+
+1. The attacker identifies the SMB service exposed on the victim system.
+2. A username and password list is prepared for testing.
+3. Automated authentication attempts are sent to the SMB service.
+4. Failed authentication attempts generate Windows Security events.
+5. If valid credentials are discovered, the attacker may gain access to shared resources.
+
+These authentication attempts produce multiple failed login events that can be detected by security monitoring tools.
+
+---
+
+## Password Spraying Attack Execution
+
+Password spraying differs from traditional brute force attacks by targeting multiple user accounts with a small number of common passwords.
+
+This technique is often used by attackers to avoid triggering account lockout policies.
+
+Execution process:
+
+1. The attacker gathers a list of valid usernames on the target system.
+2. A small set of commonly used passwords is selected.
+3. Authentication attempts are performed across multiple user accounts using the same password.
+4. Failed attempts generate authentication failure events in Windows Security logs.
+5. If a user account uses one of the tested passwords, authentication may succeed.
+
+Because the attack targets many accounts instead of a single account, it can be harder to detect without proper monitoring and correlation.
+
+---
+
+## Log Generation During Attack Simulation
+
+During these attack simulations, the Windows system generates several important security events:
+
+- **Event ID 4625** – Failed logon attempt
+- **Event ID 4624** – Successful logon
+- **Event ID 4740** – Account lockout (if lockout policy is triggered)
+
+These logs are forwarded to the Splunk SIEM server, where they will later be analyzed using search queries, dashboards, and detection rules.
