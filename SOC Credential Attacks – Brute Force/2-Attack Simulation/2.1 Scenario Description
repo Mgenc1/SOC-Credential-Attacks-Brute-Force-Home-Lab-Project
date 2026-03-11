@@ -1,1 +1,73 @@
 
+Scenario Description
+
+This lab simulates three common credential attack techniques frequently observed in enterprise environments:
+
+- RDP Brute Force
+- SMB Brute Force
+- Password Spraying
+
+Each scenario represents a different method attackers use to compromise user accounts and gain access to systems.
+
+---
+
+## Scenario 1 – RDP Brute Force Attack
+
+In this scenario, the attacker attempts to gain remote access to the Windows victim machine by repeatedly trying different password combinations through the **Remote Desktop Protocol (RDP)** service.
+
+RDP is commonly used by administrators to remotely manage Windows systems. However, if weak passwords or poor security policies exist, attackers can exploit this service using automated brute force tools.
+
+During the attack:
+
+- The attacker sends multiple authentication attempts to the RDP service.
+- Most login attempts fail due to incorrect passwords.
+- These failures generate **Windows Security Event ID 4625** logs.
+- If a correct password is eventually discovered, a successful login event (**Event ID 4624**) is generated.
+
+This activity allows SOC analysts to detect abnormal login patterns and potential brute force attempts.
+
+---
+
+## Scenario 2 – SMB Brute Force Attack
+
+In this scenario, the attacker targets the **Server Message Block (SMB)** service on the Windows victim machine.
+
+SMB is used for file sharing and network resource access in Windows environments. Attackers often attempt to brute force SMB authentication to gain access to shared resources or move laterally within a network.
+
+During this simulation:
+
+- The attacker repeatedly attempts to authenticate against SMB using different password combinations.
+- Failed login attempts generate **Windows Security Event ID 4625** logs.
+- If authentication is successful, the system records a **successful logon event (Event ID 4624)**.
+
+SOC analysts can detect suspicious authentication patterns through repeated login failures originating from a single source IP address.
+
+---
+
+## Scenario 3 – Password Spraying Attack
+
+Password spraying is a technique where attackers attempt to authenticate to multiple user accounts using a **small set of commonly used passwords**.
+
+Unlike traditional brute force attacks that target a single account with many password guesses, password spraying distributes attempts across multiple users to avoid account lockouts.
+
+During the simulation:
+
+- The attacker attempts authentication using one or a few common passwords across several user accounts.
+- Multiple login failures occur across different usernames.
+- These activities generate repeated **Event ID 4625** logs across different accounts.
+
+SOC analysts can detect this behavior by identifying patterns where the same source IP attempts authentication against many accounts within a short time period.
+
+---
+
+## Expected Detection Signals
+
+Across these scenarios, several indicators may appear in the logs:
+
+- High volume of failed login attempts
+- Multiple login attempts from a single source IP
+- Authentication attempts across many user accounts
+- Account lockouts
+- Successful login following multiple failures
+
+These signals will later be analyzed using **Splunk queries, dashboards, and correlation rules**.
