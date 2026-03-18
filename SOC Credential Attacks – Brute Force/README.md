@@ -87,7 +87,7 @@ It focuses on how a SOC analyst detects and analyzes multiple failed login attem
   - [7.2 Mitigation Recommendations.md](7-Incident%20Response/7.2%20Mitigation%20Recommendations.md)
   - [7.3 Lessons Learned.md](7-Incident%20Response/7.3%20Lessons%20Learned.md)
 - [8-Screenshots](8-Screenshots)
-  - [8.1 RDP Brute Force](8-Screenshots/8.1.%20RDP%20Brute%20Force/README.md)
+  - [RDP Brute Force](./8-Screenshots/8.1-RDP-Brute-Force/README.md)
     - [Event-4624.png](8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-4624.png)
     - [Event-4625.png](8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-4625.png)
     - [Event-4634.png](8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-4634.png)
