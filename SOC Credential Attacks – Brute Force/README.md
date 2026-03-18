@@ -159,7 +159,7 @@ If this attack occurred in a real environment:
 
 ## 📚 Skills Demonstrated
 
-* SOC Analysis (Tier 1)
+* SOC Analysis
 * Log Analysis (Windows + Sysmon)
 * SIEM (Splunk)
 * Threat Detection
