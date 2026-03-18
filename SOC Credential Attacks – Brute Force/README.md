@@ -18,7 +18,7 @@ It focuses on how a SOC analyst detects and analyzes multiple failed login attem
 
 ---
 
-# SOC Incident Workflow Overview
+## SOC Incident Workflow Overview
 
 | Step | Description |
 |------|-------------|
