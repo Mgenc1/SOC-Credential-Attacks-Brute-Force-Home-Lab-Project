@@ -103,7 +103,7 @@ It focuses on how a SOC analyst detects and analyzes multiple failed login attem
     - [Event-Sysmon-1.png](8-Screenshots/8.2.%20SMB%20Brute%20Force/Event-Sysmon-1.png)
     - [Event-Sysmon-3.png](8-Screenshots/8.2.%20SMB%20Brute%20Force/Event-Sysmon-3.png)
     - [Kali-Crackmapexec.png](8-Screenshots/8.2.%20SMB%20Brute%20Force/Kali-Crackmapexec.png)
-    - [BruteForceScreenshots.md](8-Screenshots/8.2.%20SMB%20Brute%20Force/BruteForceScreenshots.md)
+  - [BruteForceScreenshots.md](8-Screenshots/BruteForceScreenshots.md)
 
 
 **Summary:**  
