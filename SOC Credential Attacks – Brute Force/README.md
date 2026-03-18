@@ -1,11 +1,11 @@
-# 🛡 SOC-Credential-Attacks – Brute Force Home Lab
+#  SOC-Credential-Attacks – Brute Force Home Lab
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates a **brute-force credential attack simulation** in a controlled home lab environment.
 It focuses on how a SOC analyst detects and analyzes multiple failed login attempts followed by a successful compromise using **Windows Event Logs, Sysmon, and Splunk SIEM**.
 
-### 🔎 Lab Summary
+###  Lab Summary
 
 | Component   | Description                        |
 | ----------- | ---------------------------------- |
@@ -18,7 +18,7 @@ It focuses on how a SOC analyst detects and analyzes multiple failed login attem
 
 ---
 
-## 📚 SOC Incident Workflow Overview
+##  SOC Incident Workflow Overview
 
 | Step | Description |
 |------|-------------|
