@@ -79,8 +79,8 @@ The detection is based on identifying abnormal authentication behavior:
 
 | Condition           | Threshold        |
 | ------------------- | ---------------- |
-| Failed Logins       | > 10 attempts    |
-| Time Window         | 5 minutes        |
+| Failed Logins       | > 5 attempts    |
+| Time Window         | short time        |
 | Followed by Success | Yes (Event 4624) |
 
 ---
