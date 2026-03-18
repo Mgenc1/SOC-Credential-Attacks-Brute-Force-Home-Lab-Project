@@ -32,9 +32,7 @@ It focuses on how a SOC analyst detects and analyzes multiple failed login attem
 
 ---
 
-## Content
-
-# Project Structure
+## Project Structure
 
 - [1-Architecture & Lab Setup](1-Architecture%20&%20Lab%20Setup)
   - [1.1 Lab Overview.md](1-Architecture%20&%20Lab%20Setup/1.1%20Lab%20Overview.md)
