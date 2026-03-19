@@ -61,8 +61,29 @@ It focuses on how a SOC analyst detects and analyzes multiple failed login attem
 
 - [5-Incident Case Studies](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies)
   - [5.1 Case 1 – RDP Brute Force](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force)
+    - [5.1.1 Scenario Description.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force/5.1.1%20Scenario%20Description.md)
+    - [5.1.2 Attack Execution.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force/5.1.2%20Attack%20Execution.md)
+    - [5.1.3 Alert Triage.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force/5.1.3%20Alert%20Triage.md)
+    - [5.1.4 Deep Investigation.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force/5.1.4%20Deep%20Investigation.md)
+    - [5.1.5 Timeline Analysis.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force/5.1.5%20Timeline%20Analysis.md)
+    - [5.1.6 IOC Extraction.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force/5.1.6%20IOC%20Extraction.md)
+    - [5.1.7 Threat Level.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force/5.1.7%20Threat%20Level.md)
+    - [5.1.8 Impact Assessment.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force/5.1.8%20Impact%20Assessment.md)
+    - [5.1.9 Response Playbook.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.1%20Case%201%20–%20RDP%20Brute%20Force/5.1.9%20Response%20Playbook.md)
+
   - [5.2 Case 2 – SMB Brute Force](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force)
+    - [5.2.1 Scenario Description.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force/5.2.1%20Scenario%20Description.md)
+    - [5.2.2 Attack Execution.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force/5.2.2%20Attack%20Execution.md)
+    - [5.2.3 Alert Triage.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force/5.2.3%20Alert%20Triage.md)
+    - [5.2.4 Deep Investigation.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force/5.2.4%20Deep%20Investigation.md)
+    - [5.2.5 Timeline Analysis.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force/5.2.5%20Timeline%20Analysis.md)
+    - [5.2.6 IOC Extraction.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force/5.2.6%20IOC%20Extraction.md)
+    - [5.2.7 Threat Level.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force/5.2.7%20Threat%20Level.md)
+    - [5.2.8 Impact Assessment.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force/5.2.8%20Impact%20Assessment.md)
+    - [5.2.9 Response Playbook.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/5.2%20Case%202%20–%20SMB%20Brute%20Force/5.2.9%20Response%20Playbook.md)
+
   - [Cases Plan.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/5-Incident%20Case%20Studies/Cases%20Plan.md)
+
 
 - [6- Splunk Dashboard](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/6-%20Splunk%20Dashboard)
   - [6.1 Top Attacking IPs.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/6-%20Splunk%20Dashboard/6.1%20Top%20Attacking%20IPs.md)
