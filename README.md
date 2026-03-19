@@ -98,7 +98,23 @@ It focuses on how a SOC analyst detects and analyzes multiple failed login attem
 
 - [8-Screenshots](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots)
   - [8.1. RDP Brute Force](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force)
+    - [Event-4624.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-4624.png)
+    - [Event-4625.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-4625.png)
+    - [Event-4634.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-4634.png)
+    - [Event-4648.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-4648.png)
+    - [Event-4672.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-4672.png)
+    - [Event-Sysmon-1.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-Sysmon-1.png)
+    - [Event-Sysmon-10.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-Sysmon-10.png)
+    - [Event-Sysmon-3.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force/Event-Sysmon-3.png)
+    - [Kali-Hydra.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.1.%20RDP%20Brute%20Force/Kali-Hydra.png)
+
   - [8.2. SMB Brute Force](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.2.%20SMB%20Brute%20Force)
+    - [Event-4624.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.2.%20SMB%20Brute%20Force/Event-4624.png)
+    - [Event-4625.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.2.%20SMB%20Brute%20Force/Event-4625.png)
+    - [Event-Sysmon-1.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.2.%20SMB%20Brute%20Force/Event-Sysmon-1.png)
+    - [Event-Sysmon-3.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.2.%20SMB%20Brute%20Force/Event-Sysmon-3.png)
+    - [Kali-Crackmapexec.png](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/8.2.%20SMB%20Brute%20Force/Kali-Crackmapexec.png)
+
   - [BruteForceScreenshots.md](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/8-Screenshots/BruteForceScreenshots.md)
 
 
