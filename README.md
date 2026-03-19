@@ -34,7 +34,7 @@ It focuses on how a SOC analyst detects and analyzes multiple failed login attem
 
 ## Project Structure
 
-- [1-Architecture & Lab Setup](1-Architecture%20&%20Lab%20Setup)
+- [1-Architecture & Lab Setup](SOC%20Credential%20Attacks%20%E2%80%93%20Brute%20Force/1-Architecture%20&%20Lab%20Setup)
   - [1.1 Lab Overview.md](1-Architecture%20&%20Lab%20Setup/1.1%20Lab%20Overview.md)
   - [1.2 Network Diagram.png](1-Architecture%20&%20Lab%20Setup/1.2%20Network%20Diagram.png)
   - [1.3 VM Roles.md](1-Architecture%20&%20Lab%20Setup/1.3%20VM%20Roles.md)
